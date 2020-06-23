@@ -1,15 +1,16 @@
 /*********************************************
  * YOUR CODE HERE!                           *
  ********************************************/
-module.exports= require-('.calculate-back-end')
+const calculate= require('.calculate-back-end.js')
 
 
-userInput= getInput(0)
-userInput2= getInput(1)
+const number1= getInput(0)
+const number2= getInput(1)
+const operand = getInput(2)
 
+const result = calculate(number1,number2,operand)
 
-getInput(3);
-
+console.log(result);
 
 
 
